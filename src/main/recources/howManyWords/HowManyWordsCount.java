@@ -1,4 +1,4 @@
-package howManyWords;
+package main.recources.howManyWords;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class HowManyWordsCount {
-    public List< Map.Entry <String, Integer>> CountWords (String[] words){
+    public List< Map.Entry <String, Integer>> countWords (String[] words){
 
         HashMap<String, Integer> wordsCount = new HashMap<>();
         for (String word : words) {

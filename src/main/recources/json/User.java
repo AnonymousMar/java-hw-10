@@ -1,4 +1,4 @@
-package json;
+package main.recources.json;
 
 public class User {
     private String name;

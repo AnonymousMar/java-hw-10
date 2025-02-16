@@ -1,11 +1,11 @@
-package NumberValid;
+package main.recources;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.StringJoiner;
 
-public class ScannerContentReader implements FileContentReader{
+public class ScannerContentReader implements FileContentReader {
 
 
     @Override
